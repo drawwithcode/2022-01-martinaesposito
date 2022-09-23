@@ -3,20 +3,15 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
-  noFill();
-  strokeCap(SQUARE);
-  stroke(30);
-  strokeWeight(10);
+  rectMode(CENTER);
 
 }
 
 function draw() {
 
-  let arcWeight = 10;
-  let dia = 100;
-  let angleModule = PI / 8;
-
+translate(50, 50);
+fill= 30;
+rect(width/2,height/2,50,50);
 
 
 }
