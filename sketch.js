@@ -13,7 +13,9 @@ function setup() {
 
 function draw() {
 
- circle(30,1,30,40);
+  let arcWeight = 10;
+  let dia = 100;
+  let angleModule = PI / 8;
 
 
 
