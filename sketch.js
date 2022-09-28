@@ -119,7 +119,7 @@ function rectClick() {
     }
   }
 
-//ciclo che crea quadrati con le coordinate mouseX e mouseY contenute nell'array points
+//ciclo che crea quadrati con le coordinate contenute nell'array points
   for( i= 0; i < lw; i++){
     for( j= 0; j < lh; j++){
 
@@ -142,4 +142,3 @@ function rectClick() {
     }
   }
 }
-
